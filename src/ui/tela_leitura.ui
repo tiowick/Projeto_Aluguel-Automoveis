@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>778</width>
+    <height>542</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>10</y>
+      <width>861</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>360</y>
+       <width>131</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	font: 14pt &quot;MS Shell Dlg 2&quot;;
+	background-color: rgb(177, 177, 177);
+border-style: outset;
+border-radius: 15px;
+border-width: 2px;
+border-color:rgb(0, 0, 0,150)
+}
+
+QPushButton:hover{
+background-color: rgb(255, 255, 255);
+color: rgb(53, 53, 53);
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Sair</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>60</y>
+       <width>711</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">padding: 10px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:12pt; font-weight:600;&quot;&gt;  Esse projeto foi criado pelo senac, curso EAD, programador de sistemas, cada UC um novo aprendizado e com um bom desenvolvimento da equipe, boa comunicação de ambas as partes, tanto professor, quanto os alunos, aplicando paciência, pois é um conteúdo difícil, mas não impossivel !, chegamos ao final do curso com sucesso, aprendemos passo a passo de cada projeto de cada UC, afim de ingressar no mercado de trabalho e aplicar esse aprendizado, sempre buscando conhecimento e novas formas resolver os problemas.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>360</y>
+       <width>131</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	font: 14pt &quot;MS Shell Dlg 2&quot;;
+	background-color: rgb(177, 177, 177);
+border-style: outset;
+border-radius: 15px;
+border-width: 2px;
+border-color:rgb(0, 0, 0,150)
+}
+
+QPushButton:hover{
+background-color: rgb(255, 255, 255);
+color: rgb(53, 53, 53);
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Proximo</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>10</y>
+       <width>531</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Desenvolvimento da equipe</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-10</y>
+       <width>861</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>SENAC - Educar para Trabalhar PLANO DE FUNDO Teams 1920x1080.png</pixmap>
+     </property>
+    </widget>
+    <zorder>label_2</zorder>
+    <zorder>pushButton_3</zorder>
+    <zorder>textEdit</zorder>
+    <zorder>pushButton</zorder>
+    <zorder>label</zorder>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>778</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
